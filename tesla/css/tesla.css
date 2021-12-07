@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* 全体 */
+body
+{
+	color: gray;
+	background-color: black;
+}
+
+/* 見出し1 */
+h1
+{
+	font-size: 20pt;
+	padding: 1pt 3pt;
+	margin: 2pt 0;
+}
+
+/* 見出し2 */
+h2
+{
+	color: black;
+	background-color: #406070;
+	font-size: 20pt;
+	padding: 1pt 12pt;
+	margin: 6pt 0 3pt 0;
+}
+
+/* 検索キーワード入力領域 */
+input
+{
+	font-size: 16pt;
+	color: black;
+	background-color: lightgray;
+	width: 500pt;
+	height: 33pt;
+	padding: 3pt 16pt;
+	border-style: none;
+	border-radius:30pt;
+	margin: 0;
+}
+
+/* 検索実行ボタン */
+button
+{
+	font-size: 16pt;
+	color: black;
+	background-color: #8080A0;
+	height: 40pt;
+	padding: 0pt 24pt;
+	border-style: none;
+	border-radius:30pt;
+	margin: 0;
+	cursor: pointer;
+}
+
+/* リスト全体 */
+ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+/* リスト項目 */
+li
+{
+	display:inline-block;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	border: solid 1px #404040;
+	padding: 0pt;
+	margin: 1pt;
+}
+
+/* リンク (訪問済みでもそうでなくても同じにする) */
+a:link, a:visited
+{
+	color: darkgray;
+	text-decoration: none;
+}
+
+/* リンク (ボタン的に表示する) */
+a.link
+{
+	display:inline-block;
+	vertical-align: top;
+	width: 265pt;
+	padding: 5pt 0 2pt 0;
+	margin: 0;
+}
+
+/* アイコン画像 */
+img.icon
+{
+	object-fit: contain;
+	background-color: black;
+	width: 200pt;
+	height: 60pt;
+	padding: 8pt 10pt 3pt 10pt;
+}
+
+/* リンク名 */
+span.name
+{
+	display: block;
+	vertical-align: bottom;
+	font-size: 12pt;
+}
