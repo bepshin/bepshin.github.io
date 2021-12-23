@@ -5,6 +5,7 @@ body
 {
 	color: gray;
 	background-color: black;
+	font-size: 20pt;
 }
 
 /* 見出し1 */
@@ -75,12 +76,18 @@ li
 /* リンク (訪問済みでもそうでなくても同じにする) */
 a:link, a:visited
 {
+	color: #2266AA;
+}
+
+/* リンク (訪問済みでもそうでなくても同じにする) */
+li a:link, li a:visited
+{
 	color: darkgray;
 	text-decoration: none;
 }
 
 /* リンク (ボタン的に表示する) */
-a.link
+li a.link
 {
 	display:inline-block;
 	vertical-align: top;

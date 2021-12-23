@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* 全体 */
+body
+{
+	color: gray;
+	background-color: black;
+}
+
+/* 見出し1 */
+h1
+{
+	font-size: 20pt;
+	padding: 1pt 3pt;
+	margin: 2pt 0;
+}
+
+/* 見出し2 */
+h2
+{
+	color: black;
+	background-color: #406070;
+	font-size: 20pt;
+	padding: 1pt 12pt;
+	margin: 6pt 0 3pt 0;
+}
+
+ol
+{
+	font-size: 20pt;
+	margin: 16pt 4pt 16pt 8pt;
+}
+
+ol li
+{
+	margin: 12pt 0 0 0;
+}
+
+/* リンク (訪問済みでもそうでなくても同じにする) */
+a:link, a:visited
+{
+	color: #2266AA;
+}
