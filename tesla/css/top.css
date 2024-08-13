@@ -91,7 +91,8 @@ li a.link
 {
 	display:inline-block;
 	vertical-align: top;
-	width: 265pt;
+	width: 200pt;
+	/* width: 265pt; */
 	padding: 5pt 0 2pt 0;
 	margin: 0;
 }
@@ -101,7 +102,8 @@ img.icon
 {
 	object-fit: contain;
 	background-color: black;
-	width: 200pt;
+	width: 160pt;
+	/* width: 200pt; */
 	height: 60pt;
 	padding: 8pt 10pt 3pt 10pt;
 }
