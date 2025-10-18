@@ -115,3 +115,9 @@ span.name
 	vertical-align: bottom;
 	font-size: 12pt;
 }
+
+/* アイコン画像 */
+img.icon_small
+{
+	height: 18pt;
+}

@@ -25,7 +25,7 @@ h2
 	margin: 6pt 0 3pt 0;
 }
 
-ol
+ol, ul
 {
 	font-size: 20pt;
 	margin: 16pt 4pt 16pt 8pt;
@@ -43,7 +43,7 @@ a:link, a:visited
 }
 
 /* アイコン画像 */
-img.icon
+img.icon_small
 {
 	height: 18pt;
 }
