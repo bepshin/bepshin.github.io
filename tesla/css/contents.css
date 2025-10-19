@@ -12,7 +12,7 @@ h1
 {
 	font-size: 20pt;
 	padding: 1pt 3pt;
-	margin: 2pt 0;
+	margin: 4pt 0 16pt 0;
 }
 
 /* 見出し2 */
@@ -28,12 +28,12 @@ h2
 ol, ul
 {
 	font-size: 18pt;
-	margin: 16pt 2pt 16pt 4pt;
+	margin: 4pt 4pt 2pt 8pt;
 }
 
 ol li
 {
-	margin: 12pt 0 0 0;
+	margin: 2pt 0 1pt 0;
 }
 
 /* リンク (訪問済みでもそうでなくても同じにする) */
